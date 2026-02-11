@@ -15,10 +15,14 @@ def output_list():
         i += 1
 
 arr = list()
+i = True
 n = int(input("Введите количество элементов: "))
 if n < 0:
     print("Минимум 0 элементов")
     exit()
+
+
+
 input_list()
 output_list()
 print("")
