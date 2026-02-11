@@ -1,5 +1,11 @@
 arr = list()
-n = int(input("Введите количество элементов: "))
+i = True
+while i:
+    n = int(input("Введите количество элементов: "))
+    if n > 15:
+        print("Максимум 15 элементов")
+    else:
+        i = False
 print("Введите элемент: ")
 i = 0
 while (i < n):
