@@ -15,7 +15,11 @@ def output_list():
         i += 1
 
 arr = list()
+i = True
 n = int(input("Введите количество элементов: "))
+if n > 15:
+    print("Максимум 15 элементов")
+    exit()
 input_list()
 output_list()
 print("")
